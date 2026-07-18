@@ -30,3 +30,11 @@
 .slide-clear>span,.slide-clear>svg{position:relative;pointer-events:none}
 .slide-clear input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:.001;cursor:ew-resize}
 
+.app-links{display:flex;align-items:center;gap:8px}
+.app-links a{height:42px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);display:flex;align-items:center;gap:7px;padding:0 11px;text-decoration:none;font-size:11px;font-weight:800;white-space:nowrap}
+.app-links a:hover{background:#edf7f5;border-color:#b8d5d0}
+.app-links svg{width:16px;height:16px;color:#168f91}
+
+@media(max-width:1250px){.app-links span{display:none}.app-links a{width:42px;padding:0;justify-content:center}}
+@media(max-width:720px){.app-links{margin-left:auto}.app-links a{width:40px;height:40px}.hamburger{margin-left:0}}
+
