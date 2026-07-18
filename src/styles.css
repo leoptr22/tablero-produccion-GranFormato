@@ -38,3 +38,16 @@
 @media(max-width:1250px){.app-links span{display:none}.app-links a{width:42px;padding:0;justify-content:center}}
 @media(max-width:720px){.app-links{margin-left:auto}.app-links a{width:40px;height:40px}.hamburger{margin-left:0}}
 
+.storage-loading{min-height:100vh;display:grid;place-content:center;justify-items:center;gap:8px;background:#eef3f2;color:var(--ink)}
+.storage-loading img{width:190px;height:75px;object-fit:contain;margin-bottom:12px}
+.storage-loading b{font-size:16px}
+.storage-loading span{font-size:11px;color:var(--muted)}
+
+.job-copy .work-description{margin-top:8px;color:#405960;font-size:11px;line-height:1.45;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:7;overflow:hidden}
+.important-work{background:#ffe1b8;color:#8a4300;border-radius:4px;padding:1px 3px;font-weight:800;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+.job-card[role="button"]{cursor:pointer}
+.job-card[role="button"]:hover{transform:translateY(-2px);box-shadow:0 18px 38px rgba(20,48,55,.11)}
+.job-card[role="button"]:focus-visible{outline:3px solid rgba(12,159,179,.35);outline-offset:3px}
+.modal.wide{width:min(1400px,96vw);max-height:94vh}
+
